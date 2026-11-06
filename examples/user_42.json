@@ -1,0 +1,317 @@
+{
+    "user_id": 42,
+    "strategy": "cold_start",
+    "as_of": "2026-09-20T18:00:00+00:00",
+    "recommendations": [
+        {
+            "rank": 1,
+            "circle": {
+                "id": 11,
+                "name": "The Negotiation Table",
+                "slug": "the-negotiation-table",
+                "topic": "negotiation",
+                "topic_label": "Negotiation",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 15,
+                "max_members": 25,
+                "spots_left": 10,
+                "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg"
+            },
+            "explanation": "One of the most active Circles on Negotiation \u2014 a good place to start. Very active: 13 posts this month, last active yesterday. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "starter",
+                    "text": "One of the most active Circles on Negotiation \u2014 a good place to start."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 13 posts this month, last active yesterday."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Sofia, Marketing Lead."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [
+                {
+                    "id": 10,
+                    "name": "Negotiation Circle"
+                },
+                {
+                    "id": 12,
+                    "name": "Negotiate Like a Leader"
+                }
+            ],
+            "debug": {
+                "score": 0.9968,
+                "relevance": 0.0,
+                "health_score": 0.9468,
+                "matches": [],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 2,
+            "circle": {
+                "id": 5,
+                "name": "Women Who Lead",
+                "slug": "women-who-lead",
+                "topic": "leadership-skills",
+                "topic_label": "Leadership skills",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 24,
+                "max_members": 31,
+                "spots_left": 7,
+                "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg"
+            },
+            "explanation": "One of the most active Circles on Leadership skills \u2014 a good place to start. Very active: 11 posts this month, last active today. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "starter",
+                    "text": "One of the most active Circles on Leadership skills \u2014 a good place to start."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 11 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Ingrid, Recruiter."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [
+                {
+                    "id": 1,
+                    "name": "The Elevation Circle"
+                },
+                {
+                    "id": 35,
+                    "name": "Board-Ready Women"
+                }
+            ],
+            "debug": {
+                "score": 0.9784,
+                "relevance": 0.0,
+                "health_score": 0.9284,
+                "matches": [],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 3,
+            "circle": {
+                "id": 39,
+                "name": "Mentorship Matters",
+                "slug": "mentorship-matters",
+                "topic": "sponsorship-mentorship",
+                "topic_label": "Sponsorship & mentorship",
+                "format": "virtual",
+                "join_policy": "open",
+                "member_count": 11,
+                "max_members": 17,
+                "spots_left": 6
+            },
+            "explanation": "One of the most active Circles on Sponsorship & mentorship \u2014 a good place to start. Very active: 11 posts this month, last active 2 days ago. Meets virtually \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "starter",
+                    "text": "One of the most active Circles on Sponsorship & mentorship \u2014 a good place to start."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 11 posts this month, last active 2 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets virtually \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Blythe, Data Analyst."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [
+                {
+                    "id": 16,
+                    "name": "Mentors & Sponsors"
+                }
+            ],
+            "debug": {
+                "score": 0.9301,
+                "relevance": 0.0,
+                "health_score": 0.9101,
+                "matches": [],
+                "adjustments": {
+                    "incomplete_circle_profile": -0.03
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "circle": {
+                "id": 24,
+                "name": "Burnout to Balance",
+                "slug": "burnout-to-balance",
+                "topic": "stress-burnout",
+                "topic_label": "Stress & burnout",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 10,
+                "max_members": 16,
+                "spots_left": 6,
+                "cover_image_url": "https://images.example.org/circles/burnout-to-balance.jpg"
+            },
+            "explanation": "One of the most active Circles on Stress & burnout \u2014 a good place to start. Very active: 10 posts this month, last active 3 days ago. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "starter",
+                    "text": "One of the most active Circles on Stress & burnout \u2014 a good place to start."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 10 posts this month, last active 3 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Leila, Account Executive."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.9267,
+                "relevance": 0.0,
+                "health_score": 0.8767,
+                "matches": [],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 5,
+            "circle": {
+                "id": 31,
+                "name": "Team Leads Circle",
+                "slug": "team-leads-circle",
+                "topic": "managing-a-team",
+                "topic_label": "Managing a team",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 15,
+                "cover_image_url": "https://images.example.org/circles/team-leads-circle.jpg"
+            },
+            "explanation": "One of the most active Circles on Managing a team \u2014 a good place to start. Very active: 10 posts this month, last active today. Meets in person \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "starter",
+                    "text": "One of the most active Circles on Managing a team \u2014 a good place to start."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 10 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Ingrid, Research Scientist."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [
+                {
+                    "id": 36,
+                    "name": "First 90 Days"
+                }
+            ],
+            "debug": {
+                "score": 0.9234,
+                "relevance": 0.0,
+                "health_score": 0.9234,
+                "matches": [],
+                "adjustments": {
+                    "in_person_location_unverified": -0.05
+                }
+            }
+        }
+    ],
+    "prompt": "Pick a few topics you care about to get Circles matched to your goals.",
+    "debug": {
+        "interests": {},
+        "excluded": [
+            {
+                "id": 18,
+                "name": "The Only One",
+                "reason": "unlisted"
+            },
+            {
+                "id": 20,
+                "name": "The Promotion Path",
+                "reason": "full"
+            },
+            {
+                "id": 21,
+                "name": "Career Climbers",
+                "reason": "inactive"
+            },
+            {
+                "id": 27,
+                "name": "Women of the 405",
+                "reason": "no_topic"
+            },
+            {
+                "id": 28,
+                "name": "The Latina Coalition",
+                "reason": "no_topic"
+            },
+            {
+                "id": 30,
+                "name": "Early Career Collective",
+                "reason": "unlisted"
+            },
+            {
+                "id": 32,
+                "name": "The Resilience Room",
+                "reason": "inactive"
+            },
+            {
+                "id": 2,
+                "name": "Next Chapter Circle",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 19,
+                "name": "Working Mothers United",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 29,
+                "name": "Professionals Who Parent",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 33,
+                "name": "Return & Rise",
+                "reason": "life_stage_not_self_identified"
+            }
+        ]
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "user_id": 23,
+    "strategy": "personalized",
+    "as_of": "2026-09-20T18:00:00+00:00",
+    "recommendations": [
+        {
+            "rank": 1,
+            "circle": {
+                "id": 22,
+                "name": "Level Up Collective",
+                "slug": "level-up-collective",
+                "topic": "getting-promoted",
+                "topic_label": "Getting promoted",
+                "format": "hybrid",
+                "join_policy": "request",
+                "member_count": 14,
+                "max_members": 20,
+                "spots_left": 6,
+                "cover_image_url": "https://images.example.org/circles/level-up-collective.jpg"
+            },
+            "explanation": "Focused on Getting promoted, a topic you follow. 8 posts this month, last active today. Meets in person and online \u00b7 2 members based in Atlanta, GA \u00b7 request to join.",
+            "reasons": [
+                {
+                    "code": "topic_match",
+                    "text": "Focused on Getting promoted, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "8 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 2 members based in Atlanta, GA \u00b7 request to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Aisha, Engineering Manager."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.7599,
+                "relevance": 0.6667,
+                "health_score": 0.9044,
+                "matches": [
+                    {
+                        "topic": "getting-promoted",
+                        "kind": "primary",
+                        "source": "stated",
+                        "value": 1.0
+                    }
+                ],
+                "adjustments": {
+                    "request_to_join": -0.03,
+                    "members_nearby": 0.04
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "circle": {
+                "id": 11,
+                "name": "The Negotiation Table",
+                "slug": "the-negotiation-table",
+                "topic": "negotiation",
+                "topic_label": "Negotiation",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 15,
+                "max_members": 25,
+                "spots_left": 10,
+                "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg"
+            },
+            "explanation": "Covers Negotiation, which also comes up in the Circles you're already part of. Very active: 13 posts this month, last active yesterday. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "adjacent_match",
+                    "text": "Covers Negotiation, which also comes up in the Circles you're already part of."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 13 posts this month, last active yesterday."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Sofia, Marketing Lead."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 10,
+                    "name": "Negotiation Circle"
+                },
+                {
+                    "id": 12,
+                    "name": "Negotiate Like a Leader"
+                }
+            ],
+            "debug": {
+                "score": 0.4614,
+                "relevance": 0.2,
+                "health_score": 0.9468,
+                "matches": [
+                    {
+                        "topic": "negotiation",
+                        "kind": "primary",
+                        "source": "circle_tags",
+                        "value": 0.3
+                    }
+                ],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 3,
+            "circle": {
+                "id": 24,
+                "name": "Burnout to Balance",
+                "slug": "burnout-to-balance",
+                "topic": "stress-burnout",
+                "topic_label": "Stress & burnout",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 10,
+                "max_members": 16,
+                "spots_left": 6,
+                "cover_image_url": "https://images.example.org/circles/burnout-to-balance.jpg"
+            },
+            "explanation": "Covers Stress & burnout, which also comes up in the Circles you're already part of. Very active: 10 posts this month, last active 3 days ago. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "adjacent_match",
+                    "text": "Covers Stress & burnout, which also comes up in the Circles you're already part of."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 10 posts this month, last active 3 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Leila, Account Executive."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.4368,
+                "relevance": 0.2,
+                "health_score": 0.8767,
+                "matches": [
+                    {
+                        "topic": "stress-burnout",
+                        "kind": "primary",
+                        "source": "circle_tags",
+                        "value": 0.3
+                    }
+                ],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 4,
+            "circle": {
+                "id": 16,
+                "name": "Mentors & Sponsors",
+                "slug": "mentors-and-sponsors",
+                "topic": "sponsorship-mentorship",
+                "topic_label": "Sponsorship & mentorship",
+                "format": "virtual",
+                "join_policy": "open",
+                "member_count": 12
+            },
+            "explanation": "Also covers Getting promoted, a topic you follow. 6 posts this month, last active 13 days ago. Meets virtually \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Getting promoted, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "6 posts this month, last active 13 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets virtually \u00b7 open to join."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.4193,
+                "relevance": 0.3583,
+                "health_score": 0.6183,
+                "matches": [
+                    {
+                        "topic": "getting-promoted",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    },
+                    {
+                        "topic": "stress-burnout",
+                        "kind": "tag",
+                        "source": "circle_tags",
+                        "value": 0.15
+                    }
+                ],
+                "adjustments": {
+                    "incomplete_circle_profile": -0.03
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "circle": {
+                "id": 1,
+                "name": "The Elevation Circle",
+                "slug": "the-elevation-circle",
+                "topic": "leadership-skills",
+                "topic_label": "Leadership skills",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 24,
+                "cover_image_url": "https://images.example.org/circles/the-elevation-circle.jpg"
+            },
+            "explanation": "One of the most active Circles on Leadership skills right now. Very active: 15 posts this month, last active today. Meets in person \u00b7 3 members based in Atlanta, GA \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "popular",
+                    "text": "One of the most active Circles on Leadership skills right now."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 15 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 3 members based in Atlanta, GA \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Fatima, Sales Manager."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [
+                {
+                    "id": 5,
+                    "name": "Women Who Lead"
+                },
+                {
+                    "id": 35,
+                    "name": "Board-Ready Women"
+                }
+            ],
+            "debug": {
+                "score": 1.0875,
+                "relevance": 0.0,
+                "health_score": 0.9775,
+                "matches": [],
+                "adjustments": {
+                    "members_nearby": 0.06
+                }
+            }
+        }
+    ],
+    "debug": {
+        "interests": {
+            "getting-promoted": {
+                "weight": 1.0,
+                "source": "stated"
+            },
+            "stress-burnout": {
+                "weight": 0.3,
+                "source": "circle_tags"
+            },
+            "negotiation": {
+                "weight": 0.3,
+                "source": "circle_tags"
+            }
+        },
+        "excluded": [
+            {
+                "id": 18,
+                "name": "The Only One",
+                "reason": "unlisted"
+            },
+            {
+                "id": 20,
+                "name": "The Promotion Path",
+                "reason": "full"
+            },
+            {
+                "id": 21,
+                "name": "Career Climbers",
+                "reason": "inactive"
+            },
+            {
+                "id": 27,
+                "name": "Women of the 405",
+                "reason": "no_topic"
+            },
+            {
+                "id": 28,
+                "name": "The Latina Coalition",
+                "reason": "no_topic"
+            },
+            {
+                "id": 30,
+                "name": "Early Career Collective",
+                "reason": "unlisted"
+            },
+            {
+                "id": 32,
+                "name": "The Resilience Room",
+                "reason": "inactive"
+            },
+            {
+                "id": 2,
+                "name": "Next Chapter Circle",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 19,
+                "name": "Working Mothers United",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 29,
+                "name": "Professionals Who Parent",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 33,
+                "name": "Return & Rise",
+                "reason": "life_stage_not_self_identified"
+            }
+        ]
+    }
+}

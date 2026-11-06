@@ -1,0 +1,340 @@
+{
+    "user_id": 15,
+    "strategy": "personalized",
+    "as_of": "2026-09-20T18:00:00+00:00",
+    "recommendations": [
+        {
+            "rank": 1,
+            "circle": {
+                "id": 11,
+                "name": "The Negotiation Table",
+                "slug": "the-negotiation-table",
+                "topic": "negotiation",
+                "topic_label": "Negotiation",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 15,
+                "max_members": 25,
+                "spots_left": 10,
+                "cover_image_url": "https://images.example.org/circles/the-negotiation-table.jpg"
+            },
+            "explanation": "Focused on Negotiation, a topic you follow. Very active: 13 posts this month, last active yesterday. Meets in person and online \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "topic_match",
+                    "text": "Focused on Negotiation, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 13 posts this month, last active yesterday."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Sofia, Marketing Lead."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 10,
+                    "name": "Negotiation Circle"
+                },
+                {
+                    "id": 12,
+                    "name": "Negotiate Like a Leader"
+                }
+            ],
+            "debug": {
+                "score": 0.7647,
+                "relevance": 0.6667,
+                "health_score": 0.9468,
+                "matches": [
+                    {
+                        "topic": "negotiation",
+                        "kind": "primary",
+                        "source": "stated",
+                        "value": 1.0
+                    }
+                ],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 2,
+            "circle": {
+                "id": 13,
+                "name": "Confident Voices",
+                "slug": "confident-voices",
+                "topic": "confidence",
+                "topic_label": "Confidence",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 12,
+                "max_members": 18,
+                "spots_left": 6,
+                "cover_image_url": "https://images.example.org/circles/confident-voices.jpg"
+            },
+            "explanation": "Covers Confidence and Negotiation \u2014 topics you follow. Very active: 14 posts this month, last active today. Meets in person \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "topic_match",
+                    "text": "Covers Confidence and Negotiation \u2014 topics you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 14 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Kira, Founder."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 37,
+                    "name": "The Confidence Lab"
+                }
+            ],
+            "debug": {
+                "score": 0.7602,
+                "relevance": 0.75,
+                "health_score": 0.922,
+                "matches": [
+                    {
+                        "topic": "confidence",
+                        "kind": "primary",
+                        "source": "stated",
+                        "value": 1.0
+                    },
+                    {
+                        "topic": "negotiation",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {
+                    "in_person_location_unverified": -0.05
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "circle": {
+                "id": 23,
+                "name": "Allies at Work",
+                "slug": "allies-at-work",
+                "topic": "allyship",
+                "topic_label": "Allyship",
+                "format": "virtual",
+                "join_policy": "open",
+                "member_count": 11,
+                "max_members": 20,
+                "spots_left": 9,
+                "cover_image_url": "https://images.example.org/circles/allies-at-work.jpg"
+            },
+            "explanation": "Also covers Negotiation, a topic you follow. 3 posts this month, last active 2 days ago. Meets virtually \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Negotiation, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "3 posts this month, last active 2 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets virtually \u00b7 open to join."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.428,
+                "relevance": 0.3333,
+                "health_score": 0.6039,
+                "matches": [
+                    {
+                        "topic": "negotiation",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 4,
+            "circle": {
+                "id": 38,
+                "name": "Speak With Impact",
+                "slug": "speak-with-impact",
+                "topic": "public-speaking",
+                "topic_label": "Public speaking",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 4,
+                "max_members": 6,
+                "spots_left": 2
+            },
+            "explanation": "Also covers Negotiation, a topic you follow. 3 posts this month, last active 3 days ago. Meets in person \u00b7 open to join \u00b7 2 spots left.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Negotiation, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "3 posts this month, last active 3 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 open to join \u00b7 2 spots left."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.3332,
+                "relevance": 0.3333,
+                "health_score": 0.5616,
+                "matches": [
+                    {
+                        "topic": "negotiation",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {
+                    "incomplete_circle_profile": -0.03,
+                    "in_person_location_unverified": -0.05
+                }
+            }
+        },
+        {
+            "rank": 5,
+            "circle": {
+                "id": 8,
+                "name": "Managing Up Guild",
+                "slug": "managing-up-guild",
+                "topic": "managing-up",
+                "topic_label": "Managing up",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 15,
+                "cover_image_url": "https://images.example.org/circles/managing-up-guild.jpg"
+            },
+            "explanation": "One of the most active Circles on Managing up right now. 8 posts this month, last active today. Meets in person and online \u00b7 3 members based in Chicago, IL \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "popular",
+                    "text": "One of the most active Circles on Managing up right now."
+                },
+                {
+                    "code": "active",
+                    "text": "8 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 3 members based in Chicago, IL \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Bianca, HR Business Partner."
+                }
+            ],
+            "match_type": "discover",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.98,
+                "relevance": 0.0,
+                "health_score": 0.87,
+                "matches": [],
+                "adjustments": {
+                    "members_nearby": 0.06
+                }
+            }
+        }
+    ],
+    "debug": {
+        "interests": {
+            "confidence": {
+                "weight": 1.0,
+                "source": "stated"
+            },
+            "negotiation": {
+                "weight": 1.0,
+                "source": "stated"
+            }
+        },
+        "excluded": [
+            {
+                "id": 18,
+                "name": "The Only One",
+                "reason": "unlisted"
+            },
+            {
+                "id": 20,
+                "name": "The Promotion Path",
+                "reason": "full"
+            },
+            {
+                "id": 21,
+                "name": "Career Climbers",
+                "reason": "inactive"
+            },
+            {
+                "id": 27,
+                "name": "Women of the 405",
+                "reason": "no_topic"
+            },
+            {
+                "id": 28,
+                "name": "The Latina Coalition",
+                "reason": "no_topic"
+            },
+            {
+                "id": 30,
+                "name": "Early Career Collective",
+                "reason": "unlisted"
+            },
+            {
+                "id": 32,
+                "name": "The Resilience Room",
+                "reason": "inactive"
+            },
+            {
+                "id": 2,
+                "name": "Next Chapter Circle",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 19,
+                "name": "Working Mothers United",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 29,
+                "name": "Professionals Who Parent",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 33,
+                "name": "Return & Rise",
+                "reason": "life_stage_not_self_identified"
+            }
+        ]
+    }
+}

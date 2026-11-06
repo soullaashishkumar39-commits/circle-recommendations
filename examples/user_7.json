@@ -1,0 +1,362 @@
+{
+    "user_id": 7,
+    "strategy": "personalized",
+    "as_of": "2026-09-20T18:00:00+00:00",
+    "recommendations": [
+        {
+            "rank": 1,
+            "circle": {
+                "id": 5,
+                "name": "Women Who Lead",
+                "slug": "women-who-lead",
+                "topic": "leadership-skills",
+                "topic_label": "Leadership skills",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 24,
+                "max_members": 31,
+                "spots_left": 7,
+                "cover_image_url": "https://images.example.org/circles/women-who-lead.jpg"
+            },
+            "explanation": "Focused on Leadership skills, a topic you follow. Very active: 11 posts this month, last active today. Meets in person and online \u00b7 4 members based in Seattle, WA \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "topic_match",
+                    "text": "Focused on Leadership skills, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 11 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 4 members based in Seattle, WA \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Ingrid, Recruiter."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 1,
+                    "name": "The Elevation Circle"
+                },
+                {
+                    "id": 35,
+                    "name": "Board-Ready Women"
+                }
+            ],
+            "debug": {
+                "score": 0.8383,
+                "relevance": 0.6667,
+                "health_score": 0.9284,
+                "matches": [
+                    {
+                        "topic": "leadership-skills",
+                        "kind": "primary",
+                        "source": "stated",
+                        "value": 1.0
+                    }
+                ],
+                "adjustments": {
+                    "members_nearby": 0.08
+                }
+            }
+        },
+        {
+            "rank": 2,
+            "circle": {
+                "id": 6,
+                "name": "Speak Up Circle",
+                "slug": "speak-up-circle",
+                "topic": "public-speaking",
+                "topic_label": "Public speaking",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 9,
+                "max_members": 13,
+                "spots_left": 4,
+                "cover_image_url": "https://images.example.org/circles/speak-up-circle.jpg"
+            },
+            "explanation": "Covers Public speaking and Leadership skills \u2014 topics you follow. 8 posts this month, last active today. Meets in person \u00b7 2 members based in Seattle, WA \u00b7 open to join \u00b7 4 spots left.",
+            "reasons": [
+                {
+                    "code": "topic_match",
+                    "text": "Covers Public speaking and Leadership skills \u2014 topics you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "8 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 2 members based in Seattle, WA \u00b7 open to join \u00b7 4 spots left."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 38,
+                    "name": "Speak With Impact"
+                }
+            ],
+            "debug": {
+                "score": 0.8321,
+                "relevance": 0.75,
+                "health_score": 0.8703,
+                "matches": [
+                    {
+                        "topic": "public-speaking",
+                        "kind": "primary",
+                        "source": "stated",
+                        "value": 1.0
+                    },
+                    {
+                        "topic": "leadership-skills",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {
+                    "members_nearby": 0.04
+                }
+            }
+        },
+        {
+            "rank": 3,
+            "circle": {
+                "id": 31,
+                "name": "Team Leads Circle",
+                "slug": "team-leads-circle",
+                "topic": "managing-a-team",
+                "topic_label": "Managing a team",
+                "format": "in_person",
+                "join_policy": "open",
+                "member_count": 15,
+                "cover_image_url": "https://images.example.org/circles/team-leads-circle.jpg"
+            },
+            "explanation": "Also covers Public speaking, a topic you follow. Very active: 10 posts this month, last active today. Meets in person \u00b7 3 members based in Seattle, WA \u00b7 open to join.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Public speaking, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "Very active: 10 posts this month, last active today."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person \u00b7 3 members based in Seattle, WA \u00b7 open to join."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Ingrid, Research Scientist."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.5999,
+                "relevance": 0.3333,
+                "health_score": 0.9234,
+                "matches": [
+                    {
+                        "topic": "public-speaking",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {
+                    "members_nearby": 0.06
+                }
+            }
+        },
+        {
+            "rank": 4,
+            "circle": {
+                "id": 34,
+                "name": "Visibility Lab",
+                "slug": "visibility-lab",
+                "topic": "visibility-recognition",
+                "topic_label": "Visibility & recognition",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 7,
+                "max_members": 10,
+                "spots_left": 3,
+                "cover_image_url": "https://images.example.org/circles/visibility-lab.jpg"
+            },
+            "explanation": "Also covers Public speaking, a topic you follow. 5 posts this month, last active 11 days ago. Meets in person and online \u00b7 open to join \u00b7 3 spots left.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Public speaking, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "5 posts this month, last active 11 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join \u00b7 3 spots left."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [
+                {
+                    "id": 9,
+                    "name": "Seen & Heard"
+                }
+            ],
+            "debug": {
+                "score": 0.5067,
+                "relevance": 0.4833,
+                "health_score": 0.55,
+                "matches": [
+                    {
+                        "topic": "visibility-recognition",
+                        "kind": "primary",
+                        "source": "bio",
+                        "value": 0.6
+                    },
+                    {
+                        "topic": "public-speaking",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {}
+            }
+        },
+        {
+            "rank": 5,
+            "circle": {
+                "id": 14,
+                "name": "Beyond Imposter Syndrome",
+                "slug": "beyond-imposter-syndrome",
+                "topic": "imposter-syndrome",
+                "topic_label": "Imposter syndrome",
+                "format": "hybrid",
+                "join_policy": "open",
+                "member_count": 6,
+                "max_members": 10,
+                "spots_left": 4,
+                "cover_image_url": "https://images.example.org/circles/beyond-imposter-syndrome.jpg"
+            },
+            "explanation": "Also covers Public speaking, a topic you follow. 5 posts this month, last active 16 days ago. Meets in person and online \u00b7 open to join \u00b7 4 spots left.",
+            "reasons": [
+                {
+                    "code": "tag_match",
+                    "text": "Also covers Public speaking, a topic you follow."
+                },
+                {
+                    "code": "active",
+                    "text": "5 posts this month, last active 16 days ago."
+                },
+                {
+                    "code": "joinable",
+                    "text": "Meets in person and online \u00b7 open to join \u00b7 4 spots left."
+                },
+                {
+                    "code": "leader",
+                    "text": "Led by Grace, Engineering Manager."
+                }
+            ],
+            "match_type": "personalized",
+            "similar_circles": [],
+            "debug": {
+                "score": 0.4252,
+                "relevance": 0.3333,
+                "health_score": 0.5959,
+                "matches": [
+                    {
+                        "topic": "public-speaking",
+                        "kind": "tag",
+                        "source": "stated",
+                        "value": 0.5
+                    }
+                ],
+                "adjustments": {}
+            }
+        }
+    ],
+    "debug": {
+        "interests": {
+            "leadership-skills": {
+                "weight": 1.0,
+                "source": "stated"
+            },
+            "public-speaking": {
+                "weight": 1.0,
+                "source": "stated"
+            },
+            "visibility-recognition": {
+                "weight": 0.6,
+                "source": "bio"
+            }
+        },
+        "excluded": [
+            {
+                "id": 18,
+                "name": "The Only One",
+                "reason": "unlisted"
+            },
+            {
+                "id": 20,
+                "name": "The Promotion Path",
+                "reason": "full"
+            },
+            {
+                "id": 21,
+                "name": "Career Climbers",
+                "reason": "inactive"
+            },
+            {
+                "id": 27,
+                "name": "Women of the 405",
+                "reason": "no_topic"
+            },
+            {
+                "id": 28,
+                "name": "The Latina Coalition",
+                "reason": "no_topic"
+            },
+            {
+                "id": 30,
+                "name": "Early Career Collective",
+                "reason": "unlisted"
+            },
+            {
+                "id": 32,
+                "name": "The Resilience Room",
+                "reason": "inactive"
+            },
+            {
+                "id": 2,
+                "name": "Next Chapter Circle",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 19,
+                "name": "Working Mothers United",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 29,
+                "name": "Professionals Who Parent",
+                "reason": "life_stage_not_self_identified"
+            },
+            {
+                "id": 33,
+                "name": "Return & Rise",
+                "reason": "life_stage_not_self_identified"
+            }
+        ]
+    }
+}
